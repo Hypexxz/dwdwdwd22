@@ -25,7 +25,7 @@
       margin-bottom: 20px;
     }
     img.logo {
-      width: 120px; /* Ajuste o tamanho conforme necessário */
+      width: 120px;
       height: auto;
       margin-bottom: 10px;
     }
@@ -59,6 +59,21 @@
       color: #d8d8e0;
     }
 
+    /* Image Gallery */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+      justify-content: center;
+    }
+    .image-gallery img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    }
+
     /* Download Button */
     .btn-download {
       display: inline-block;
@@ -87,21 +102,29 @@
 <body>
 
   <header>
-   
     <h1>Nyclyter</h1>
     <p class="subtitle">A Game of Mystery and Intrigue</p>
   </header>
 
   <section>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VBP9pzDmuuU?si=jfCDaPMQF4a6FJq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h2>About</h2>
-    <p>In "Nyclyter," you are a detective venturing into an abandoned town shrouded in dark secrets and unsolved mysteries. Each clue you find, each area you investigate, draws you deeper into a web of intrigue, where nothing is quite as it seems.</p>
-    <p>Explore forgotten locations, interact with mysterious characters, and uncover fragments of a hidden story as you attempt to solve the town's disappearances. Prepare yourself for mental challenges, complex puzzles, and an atmosphere that will keep you on edge with every step.</p>
+    
+   <h2>About</h2>
+<p>In "Nyclyter," you and a partner step into the roles of detectives exploring an abandoned town filled with dark secrets and unsolved mysteries. Together, you must uncover clues, analyze strange happenings, and rely on each other's strengths to solve the puzzles that await.</p>
+<p>As a team, you will search forgotten locations, engage with enigmatic characters, and piece together fragments of a hidden story. Every decision brings you closer to the truth or leads you down paths with unexpected consequences. Prepare yourselves for complex mental challenges, immersive atmospheres, and an experience that requires trust and teamwork.</p>
+
+
+    <div class="image-gallery">
+      <img src="https://www.adrenaline.com.br/wp-content/uploads/2024/02/Silent-Hill-2-Remake-esta-na-fase-final-de-desenvolvimento.jpg" alt="Game atmosphere 1">
+      <img src="https://www.alanwake.com/wp-content/uploads/2023/10/AWII_Launch_049.png" alt="Game atmosphere 2">
+      <img src="https://www.alanwake.com/wp-content/uploads/2023/10/AWII_Launch_020-800x800.png" alt="Game atmosphere 3">
+    </div>
+
     <a href="https://cdn.discordapp.com/attachments/1304207013386911757/1304626688877138010/Nyclyter.rar?ex=673013c9&is=672ec249&hm=ce44ed6d5fdce60f8d9543275ad45f044cd2a4e7a4f4a75fffcc07723401dec5&" class="btn-download">DOWNLOAD</a>
   </section>
 
   <footer>
-    
+    <p>&copy; 2024 Nyclyter Game. All Rights Reserved.</p>
   </footer>
 
 </body>
